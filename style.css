@@ -1,0 +1,31 @@
+.card{
+    margin: 0 auto;
+    border: 1px solid #d3d3d3;
+    border-radius: 5px;
+    background-color: #d3d3d3;
+    transition: .2s;
+}
+.list-group-item{
+    margin: 5px;
+    background-color: #CB8C1D;
+    color: white;
+    font-size: 20px;
+    font-family: Carter One;
+}
+
+.list-group-item:hover{
+    cursor: -webkit-grab;
+    cursor: grab;
+}
+
+.list-group-item:active{
+    cursor: -webkit-grabbing;
+    cursor: grabbing;
+}
+
+.card:hover{
+    -webkit-box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+	box-shadow:0 0 10px rgba(0, 0, 0, 0.5); 
+}
+
