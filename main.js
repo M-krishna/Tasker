@@ -87,5 +87,11 @@ $(document).ready(function () {
         delay: 100
     });
 
+    $('#clearAll').on('click', function(e){
+        e.preventDefault();
+        $('.lists li').remove();
+        localStorage.removeItem('Tasks');
+    })
+
 
 });
